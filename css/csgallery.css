@@ -1,0 +1,134 @@
+.no-sidebar .entry-content {
+ /*margin-right: 7.6923%;*/
+ /*margin-right: 0;*/
+ /*margin-left: 7.6923%;*/
+ margin-left:0;
+ margin:auto;
+ border:0px solid red;
+ width:95%
+}
+.csgallery img {
+	height: auto;
+	max-width: 100%;
+	/* Adhere to container width. */
+	/*vertical-align: middle;*/
+}
+.csgallery{
+  /*background-color: red;*/
+}
+.csgallery .searchDiv{
+  background-color: #a0a0a0;
+  border-radius: 7px
+}
+.csgallery .searchCategorySelect{
+  /*display:none;*/
+  display:inline-block;
+}
+.csgallery .searchPlaceSelect{
+  /*display:none;*/
+  display:inline-block;
+}
+.csgallery .searchTypeLink{
+ background-color:#ffffff; height:30px
+}
+.csgallery .searchTypeLinkActive{
+  font-weight: bold; font-size: 1.2em; color:#000000
+}
+.csgallery .prevNextPagingDiv{
+  font-size:0.8em;
+  background-color: #c0c0c0;
+  border-radius: 7px
+}
+.csgallery .btn { padding: 4px; background: #aaaaaa}
+
+.csgallery .galleryimagediv
+{
+  border:1px solid #808080;
+  margin:3px;padding:5px;
+  background-color:#aaaaaa;
+  border-radius: 10px
+}
+.csgallery .galleryimagediv .thumbnailimagetitle{
+  text-align: center;
+  font-size:18px;
+  max-height:55px;
+  overflow:hidden;
+}
+.csgallery .galleryimagediv img { cursor: pointer }
+.csgallery .galleryimagediv img:hover{ opacity: 0.7 }
+.csgallery .galleryimagediv:hover{z-index:1 !important; overflow:visible !important }
+
+.csgallery .thumbnailtext{
+  border-bottom: 2px solid #606060; padding:3px;font-size: 0.8em;
+  background-color:#cccccc }
+/*.csgallery .thumbnailtextreadmorelink{ display: inline-block; }*/
+.csgallery .thumbnailtextreadmorelink{ display:none }
+
+.csgallery #CSGalleryPopupOverlay{
+  z-index:100;
+  margin:0 auto;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height: 100%;
+  display:none;
+  background-color: rgba(0,0,0,0.5);
+}
+.csgallery .CSGalleryPopupContent{
+  position:absolute;
+  width:90%;
+  margin:0 auto;
+  top:5%;
+  left:0;
+  right:0;
+  text-align: center;
+  overflow: auto;
+  bottom:5%;
+  /*top:50%;left:50%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%); */
+  background-color:#ffffff
+}
+.csgallery #CSGalleryPopupBody{
+  /*background-color: blue;*/
+}
+.csgallery .CSGalleryPopupContent #CSGalleryPopupCloseBtn{
+  color:#606060;
+  background-color: #dddddd;
+  border:1px solid #606060
+}
+.csgallery .CSGalleryPopupContent #CSGalleryPopupCloseBtn2{
+  border:1px solid #606060
+}
+.csgallery #CSGalleryPopupBody .CSGalleryPopupInfoText{
+  /*color:red;*/
+}
+.csgallery .CSGalleryPopupFullSizeImgDiv{
+  position: absolute;
+  /*overflow: auto;*/
+  cursor: pointer;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.csgallery .CSGalleryPopupContent #CSGalleryPopupPrevBtn:hover{
+  color:#ffffff !important;
+}
+.csgallery .CSGalleryPopupContent #CSGalleryPopupNextBtn:hover{
+  color:#ffffff !important;
+}
+.csgallery .CSGalleryPopupContent .CSGalleryPopupPrevSidePanel:hover{
+  color:#ffffff !important;
+  /*background-color: #ff0000 !important;*/
+  background-color: rgba(0,0,0,0.3) !important;
+}
+.csgallery .CSGalleryPopupContent .CSGalleryPopupNextSidePanel:hover{
+  color:#ffffff !important;
+  /*background-color: #ff0000 !important;*/
+  background-color: rgba(0,0,0,0.3) !important;
+}
